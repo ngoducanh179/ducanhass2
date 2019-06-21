@@ -2,7 +2,7 @@
 <html>
 <body>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link rel="stylesheet" href="style.css">
 <h1>DATABASE CONNECTION</h1>
 
 <?php
@@ -73,5 +73,10 @@ echo '<p>Students information:</p>';
               </tbody>
             </table>
           </div>
+    <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+     <br/>
+	 <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+    <br/>
+	<a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
 </body>
 </html>

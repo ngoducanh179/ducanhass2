@@ -3,6 +3,7 @@
     <head>
 <title>Insert data to PostgreSQL with php - creating a simple web application</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css">
 <style>
 li {
 list-style: none;
@@ -21,7 +22,11 @@ list-style: none;
 <li><input type="submit" /></li>
 </form>
 </ul>
-
+<a href="ConnectToDB.php" class="myButton take1">View Data</a>
+     <br/>
+	 <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+    <br/>
+	<a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
 <?php
 
 if (empty(getenv("DATABASE_URL"))){

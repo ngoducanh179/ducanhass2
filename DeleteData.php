@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="style.css">
 <style>
 li {
 list-style: none;
@@ -15,6 +16,12 @@ list-style: none;
 <li><input type="submit" /></li>
 </form>
 </ul>
+<a href="ConnectToDB.php" class="myButton take1">View Data</a>
+     <br/>
+	 <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+     <br/>
+	 <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+    <br/>
 <?php
 // ini_set('display_errors', 1);
 // echo "Insert database!";
