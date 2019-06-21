@@ -60,7 +60,7 @@ echo '<p>Students information:</p>';
                 </tr>
               </thead>
               <tbody>
-                <?php foreach ($student as $key => $value): ?>
+                <?php foreach ($resultSet as $key => $value): ?>
                 <tr class="odd gradeX">
                   <td><?php echo $value['stuid']; ?></td>
                   <td><?php echo $value['fname']; ?></td>
