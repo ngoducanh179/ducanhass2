@@ -14,7 +14,7 @@
 </ul>
 <?php
 // ini_set('display_errors', 1);
-echo "Update database!";
+// echo "Update database!";
 ?>
 
 <?php
