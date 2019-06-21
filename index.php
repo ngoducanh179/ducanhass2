@@ -22,7 +22,7 @@
  	<br>
  	<br>
  	<br>
-	 <a href="ConnectToDB.php" class="myButton take1">Connect database</a>
+	 <a href="ConnectToDB.php" class="myButton take1">View Data</a>
      <br/>
 	 <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
      <br/>
