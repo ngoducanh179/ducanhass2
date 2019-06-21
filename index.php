@@ -7,7 +7,7 @@
  	body{
  		width: 100%;
  		height: 100%;
- 		background: url(nen.jpg);
+ 		background: url(maxresdefault.jpg);
  	}
  	p{
  		text-align: center;
@@ -15,7 +15,7 @@
  	
  </style>
  <body>
-	<h2 style="text-align: center;">Hello Teacher</h2> 	
+	
  	<p><strong>Name:</strong> Ngo Duc Anh</p>
  	<p><strong>Class:</strong> GCD0818</p>
  	<p><strong>ID:</strong> GCD17028</p>
