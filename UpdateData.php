@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>INSERT DATA TO DATABASE</h1>
+<h1>Update to database</h1>
 <ul>
 <form name="UpdateData" action="UpdateData.php" method="POST" >
 <li>Student ID:</li><li><input type="text" name="stuid" /></li>
@@ -13,7 +13,7 @@
 </form>
 </ul>
 <?php
-ini_set('display_errors', 1);
+// ini_set('display_errors', 1);
 echo "Update database!";
 ?>
 
