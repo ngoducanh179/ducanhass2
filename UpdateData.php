@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<style>
+li {
+list-style: none;
+}
+</style>
 <body>
 
 <h1>Update to database</h1>

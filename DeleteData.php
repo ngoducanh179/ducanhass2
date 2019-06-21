@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
+<style>
+li {
+list-style: none;
+}
+</style>
 <body>
+
 
 <h1>Delete from database</h1>
 <ul>
