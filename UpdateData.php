@@ -3,13 +3,15 @@
 <body>
 
 <h1>INSERT DATA TO DATABASE</h1>
+<ul>
 <form name="UpdateData" action="UpdateData.php" method="POST" >
 <li>Student ID:</li><li><input type="text" name="stuid" /></li>
 <li>Full Name:</li><li><input type="text" name="fname" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
 <li>Class:</li><li><input type="text" name="classname" /></li>
-<li><input type="submit" />Submit</li>
+<li><input type="submit" /></li>
 </form>
+</ul>
 <?php
 ini_set('display_errors', 1);
 echo "Update database!";
