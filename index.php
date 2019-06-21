@@ -2,6 +2,7 @@
  <head>
   <title>Database Test</title>
  </head>
+ <link rel="stylesheet" href="style.css">
  <style type="text/css">
  	body{
  		width: 100%;
@@ -21,13 +22,13 @@
  	<br>
  	<br>
  	<br>
-     <a href="ConnectToDB.php" target="_blank" >Connect database</a>
+	 <a href="ConnectToDB.php" class="myButton">Connect database</a>
      <br/>
-     <a href="InsertData.php" target="_blank" >Insert data to the database</a>
+	 <a href="InsertData.php" class="myButton">Insert data to the database</a>
      <br/>
-     <a href="UpdateData.php" target="_blank" >Update data to the database</a> 
+	 <a href="UpdateData.php" class="myButton">Update data to the database</a>
     <br/>
-    <a href="DeleteData.php" target="_blank" >Delete data to the database</a> 
+	<a href="DeleteData.php" class="myButton">Delete data to the database</a> 
 
  </body>
 </html>
