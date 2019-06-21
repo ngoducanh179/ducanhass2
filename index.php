@@ -22,13 +22,13 @@
  	<br>
  	<br>
  	<br>
-	 <a href="ConnectToDB.php" class="myButton">Connect database</a>
+	 <a href="ConnectToDB.php" class="myButton take1">Connect database</a>
      <br/>
-	 <a href="InsertData.php" class="myButton">Insert data to the database</a>
+	 <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
      <br/>
-	 <a href="UpdateData.php" class="myButton">Update data to the database</a>
+	 <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
     <br/>
-	<a href="DeleteData.php" class="myButton">Delete data to the database</a> 
+	<a href="DeleteData.php" class="myButton take4">Delete data to the database</a> 
 
  </body>
 </html>
