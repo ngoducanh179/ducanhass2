@@ -36,17 +36,41 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo '<p>Students information:</p>';
-foreach ($resultSet as $row) {
-	echo $row['stuid'];
-        echo "    ";
-        echo $row['fname'];
-        echo "    ";
-        echo $row['email'];
-        echo "    ";
-        echo $row['classname'];
-        echo "<br/>";
-}
+// foreach ($resultSet as $row) {
+// 	echo $row['stuid'];
+//         echo "    ";
+//         echo $row['fname'];
+//         echo "    ";
+//         echo $row['email'];
+//         echo "    ";
+//         echo $row['classname'];
+//         echo "<br/>";
+// }
 
 ?>
+
+<div class="widget-content nopadding">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Student ID</th>
+                  <th>Full Name</th>
+                  <th>Email</th>
+                  <th>classname</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($student as $key => $value): ?>
+                <tr class="odd gradeX">
+                  <td><?php echo $value['stuid']; ?></td>
+                  <td><?php echo $value['fname']; ?></td>
+                  <td><?php echo $value['email']; ?></td>
+                  <td><?php echo $value['classname']; ?></td>
+                </tr>
+              <?php endforeach; ?>
+                
+              </tbody>
+            </table>
+          </div>
 </body>
 </html>
