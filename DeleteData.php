@@ -9,8 +9,9 @@
     }
 </style>
 <script>
-    if ("stuid" == " ") {
-        alert('empty');
+    x = document.getElementById("take");
+    if (x == "") {
+        alert("fuck");
     }
 </script>
 
@@ -21,7 +22,7 @@
     <ul>
         <form name="DeleteData" action="DeleteData.php" method="POST">
             <li>Student ID:</li>
-            <li><input type="text" name="stuid" /></li>
+            <li><input type="text" name="stuid" id="take" /></li>
             <li><input type="submit" /></li>
         </form>
 
