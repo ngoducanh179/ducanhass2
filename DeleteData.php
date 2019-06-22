@@ -8,6 +8,11 @@
         list-style: none;
     }
 </style>
+<script>
+    if ("stuid" == " ") {
+        alert('empty');
+    }
+</script>
 
 <body>
 
