@@ -8,7 +8,8 @@
 	body {
 		width: 100%;
 		height: 100%;
-		background: url(maxresdefault.jpg);
+		background: url(maxresdefault.jpg) no-repeat;
+		background: cover;
 	}
 
 	p {
