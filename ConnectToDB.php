@@ -23,7 +23,10 @@
     echo getenv("dbname");
     $db = parse_url(getenv("DATABASE_URL"));
     $pdo = new PDO("pgsql:" . sprintf(
-      "host=ec2-107-20-230-70.compute-1.amazonaws.com;port=5432;user=eirmniiakxyqoe;password=3e07e3615308dc1f376f5cd4effa6c325e0288742205be8c3e6e0978ce59482b;dbname=d6r6sqblr6dakr",
+      "host=ec2-107-20-230-70.compute-1.amazonaws.com;port=5432;
+      user=eirmniiakxyqoe;
+      password=3e07e3615308dc1f376f5cd4effa6c325e0288742205be8c3e6e0978ce59482b;
+      dbname=d6r6sqblr6dakr",
       $db["host"],
       $db["port"],
       $db["user"],
@@ -75,11 +78,15 @@
       </tbody>
     </table>
   </div>
-  <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
-  <br />
-  <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
-  <br />
-  <a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
+  <div class="row">
+    <div class="col-12">
+      <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+
+      <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+
+      <a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
+    </div>
+  </div>
 </body>
 
 </html>

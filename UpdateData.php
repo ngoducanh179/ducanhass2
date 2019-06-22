@@ -6,6 +6,7 @@
         list-style: none;
     }
 </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <body>
 
@@ -22,12 +23,17 @@
             <li><input type="text" name="classname" /></li>
             <li><input type="submit" /></li>
         </form>
+
     </ul>
-    <a href="ConnectToDB.php" class="myButton take1">View Data</a>
-    <br />
-    <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
-    <br />
-    <a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
+    <div class="row">
+        <div class="col-12">
+            <a href="ConnectToDB.php" class="myButton take1">View Data</a>
+
+            <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+
+            <a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
+        </div>
+    </div>
     <?php
     // ini_set('display_errors', 1);
     // echo "Update database!";
