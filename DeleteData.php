@@ -23,11 +23,11 @@
     </ul>
     <div class="row">
         <div class="col-12">
-            <a href="ConnectToDB.php" class="myButton take1">View Data</a>
+            <a href="ConnectToDB.php" class="myButton pl-3">View Data</a>
 
-            <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+            <a href="InsertData.php" class="myButton pl-3">Insert data to the database</a>
 
-            <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+            <a href="UpdateData.php" class="myButton pl-3">Update data to the database</a>
         </div>
     </div>
 

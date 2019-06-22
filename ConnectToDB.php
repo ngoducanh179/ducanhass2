@@ -80,11 +80,11 @@
   </div>
   <div class="row">
     <div class="col-12">
-      <a href="InsertData.php" class="myButton take2">Insert data to the database</a>
+      <a href="InsertData.php" class="myButton pl-3">Insert data to the database</a>
 
-      <a href="UpdateData.php" class="myButton take3">Update data to the database</a>
+      <a href="UpdateData.php" class="myButton pl-3">Update data to the database</a>
 
-      <a href="DeleteData.php" class="myButton take4">Delete data to the database</a>
+      <a href="DeleteData.php" class="myButton pl-3">Delete data to the database</a>
     </div>
   </div>
 </body>
