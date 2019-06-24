@@ -3,11 +3,19 @@
 <script>
     function CheckClass() {
         var CheckClassName = document.getElementById("Class1").value;
-
+        var checkFullName = document.getElementById("Name1").value;
+        var checkEmail = document.getElementById("Email1").value;
         if (CheckClassName == "GCD17028") {
             return true;
+        } else if (checkFullName == "") {
+            alert("FullName should have Data");
+            return false;
+        } else if (checkEmail == "") {
+            alert("Email should have Data");
+            return false;
         } else {
-            alert("ClassName have to equal GCD17028");
+            alert("ClassName should equal GCD17028");
+            return false;
         }
     }
 </script>
@@ -33,9 +41,9 @@
             <li>Student ID:</li>
             <li><input type="text" name="stuid" /></li>
             <li>Full Name:</li>
-            <li><input type="text" name="fname" /></li>
+            <li><input type="text" name="fname" id="Name1" /></li>
             <li>Email:</li>
-            <li><input type="text" name="email" /></li>
+            <li><input type="text" name="email" id="Email1" /></li>
             <li>Class:</li>
             <li><input type="text" name="classname" id="Class1" /></li>
             <li><input type="submit" name="Submit" onclick="CheckClass()" /></li>
