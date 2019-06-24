@@ -29,7 +29,7 @@
 
 <body>
 
-    <h1>Update to database</h1>
+    <h1>Update to the database</h1>
     <ul>
         <form name="UpdateData" action="UpdateData.php" method="POST">
             <li>Student ID:</li>
