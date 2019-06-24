@@ -14,7 +14,7 @@
             alert("Email should have Data");
             return false;
         } else {
-            alert("ClassName should equal GCD17028");
+            alert("ClassName should equal GCD0818");
             return false;
         }
     }

@@ -7,6 +7,25 @@
     }
 </style>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script>
+    function CheckClass() {
+        var CheckClassName = document.getElementById("Class1").value;
+        var checkFullName = document.getElementById("Name1").value;
+        var checkEmail = document.getElementById("Email1").value;
+        if (CheckClassName == "GCD0818") {
+            return true;
+        } else if (checkFullName == "") {
+            alert("FullName should have Data");
+            return false;
+        } else if (checkEmail == "") {
+            alert("Email should have Data");
+            return false;
+        } else {
+            alert("ClassName should equal GCD0818");
+            return false;
+        }
+    }
+</script>
 
 <body>
 
@@ -14,14 +33,14 @@
     <ul>
         <form name="UpdateData" action="UpdateData.php" method="POST">
             <li>Student ID:</li>
-            <li><input type="text" name="stuid" /></li>
+            <li><input type="text" name="stuid" id= /></li>
             <li>Full Name:</li>
-            <li><input type="text" name="fname" /></li>
+            <li><input type="text" name="fname" id="Name1" /></li>
             <li>Email:</li>
-            <li><input type="text" name="email" /></li>
+            <li><input type="text" name="email" id="Email1" /></li>
             <li>Class:</li>
-            <li><input type="text" name="classname" /></li>
-            <li><input type="submit" /></li>
+            <li><input type="text" name="classname" id="Class1" /></li>
+            <li><input type="submit" onclick="CheckClass()" /></li>
         </form>
 
     </ul>
