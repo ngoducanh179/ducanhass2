@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <script>
-    var CheckClassName = document.getElementById("Class1").value;
-    if (CheckClassName == "GCD17028") {
-        return true;
-    } else {
-        alert("ClassName have to equal GCD17028");
+    function CheckClass() {
+        var CheckClassName = document.getElementById("Class1").value;
+
+        if (CheckClassName == "GCD17028") {
+            return true;
+        } else {
+            alert("ClassName have to equal GCD17028");
+        }
     }
 </script>
 
@@ -35,7 +38,7 @@
             <li><input type="text" name="email" /></li>
             <li>Class:</li>
             <li><input type="text" name="classname" id="Class1" /></li>
-            <li><input type="submit" name="Submit" /></li>
+            <li><input type="submit" name="Submit" onclick="CheckClass()" /></li>
         </form>
     </ul>
     <div class="row">
