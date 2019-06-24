@@ -20,7 +20,7 @@
 
 <body>
 
-	<p style="color:azure;"><strong>Name:</strong> Ngo Duc Anh</p>
+	<p style="color:azure;"><strong>Name:</strong> Ngo Duc anh</p>
 	<p style="color:azure;"><strong>Class:</strong> GCD0818</p>
 	<p style="color:azure;"><strong>ID:</strong> GCD17028</p>
 	<br>
