@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+<script>
+    var CheckClassName = document.getElementById("Class1").value;
+    if (CheckClassName == "GCD17028") {
+        return true;
+    } else {
+        alert("ClassName have to equal GCD17028");
+    }
+</script>
 
 <head>
     <title>Insert data to PostgreSQL with php - creating a simple web application</title>
@@ -26,7 +34,7 @@
             <li>Email:</li>
             <li><input type="text" name="email" /></li>
             <li>Class:</li>
-            <li><input type="text" name="classname" /></li>
+            <li><input type="text" name="classname" id="Class1" /></li>
             <li><input type="submit" name="Submit" /></li>
         </form>
     </ul>
