@@ -90,7 +90,7 @@
 			// } else {
 			// 	return false;
 			// }
-			alert('dwefnjewnf');
+			window.location.replace("ConnectToDB.php");
 
 
 		}
