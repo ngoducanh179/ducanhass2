@@ -86,9 +86,11 @@
 			if (username == "admin" && password == "admin") {
 				alert("Login successfully");
 				window.location = "ConnectToDB.php";
+				return;
 			} else if (username == "employee" && password == "employee") {
 				alert("Login successfully");
 				window.location = "InsertData.php";
+				return;
 			} else {
 				return false;
 			}
