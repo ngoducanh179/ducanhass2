@@ -85,9 +85,9 @@ function login1(){
 if (UserName == "admin" && Password == "admin" ){
 	return true;
 }
-// else if (UserName && Password == "employee"){
-// 	window.location.href = 'InsertData.php';
-// }
+else if (UserName == "employee" && Password == "employee" ){
+	window.location.href = "https://assofducanh.herokuapp.com/InsertData.php";
+}
 else {
 	return false;
 }
