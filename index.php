@@ -47,11 +47,11 @@
 					</div>
 
 					<div class="container">
-						<label for="uname"><b>Username</b></label>
-						<input type="text" placeholder="Enter Username" name="uname" id="username" required>
+						<label><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" id="username" required>
 
-						<label for="psw"><b>Password</b></label>
-						<input type="password" placeholder="Enter Password" name="psw" id="password" required>
+						<label><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" id="password" required>
 
 						<button type="submit" onclick="login1()">Login</button>
 						<label>
