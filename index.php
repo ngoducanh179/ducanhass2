@@ -51,7 +51,7 @@
 						<input type="text" placeholder="Enter Username" id="username" required>
 
 						<label><b>Password</b></label>
-						<input type="password" placeholder="Enter Password" id="password" required>
+						<input type="password" placeholder="Enter Password" id="password">
 
 						<button type="submit" onclick="login1()">Login</button>
 					</div>
