@@ -83,15 +83,17 @@
 		var password = document.getElementById("password").value;
 
 		function login1() {
-			if (username == "admin" && password == "admin") {
-				alert("Login successfully");
-				window.location = "ConnectToDB.php";
-			} else if (UserName == "employee" && Password == "employee") {
-				alert("Login successfully");
-				window.location = "InsertData.php";
-			} else {
-				return false;
-			}
+			// 	if (username == "admin" && password == "admin") {
+			// 		alert("Login successfully");
+			// 		window.location = "ConnectToDB.php";
+			// 	} else if (UserName == "employee" && Password == "employee") {
+			// 		alert("Login successfully");
+			// 		window.location = "InsertData.php";
+			// 	} else {
+			// 		return false;
+			// 	}
+
+			alert('thanks');
 		}
 	</script>
 </body>
