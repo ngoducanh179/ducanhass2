@@ -79,18 +79,18 @@
 		var password1 = document.getElementById("password1").value;
 
 		function login1() {
-			if (username == "admin") {
-				alert("Login successfully");
-				window.location = "ConnectToDB.php";
-				// window.location.replace("http://www.w3schools.com");
-			} else if (username == "employee" && password == "employee") {
-				alert("Login successfully");
-				// window.location = "InsertData.php";
-				return;
-			} else {
-				return false;
-			}
-			// window.location.href = "ConnectToDB.php";
+			// if (username == "admin") {
+			// 	alert("Login successfully");
+			// 	window.location = "ConnectToDB.php";
+			// 	// window.location.replace("http://www.w3schools.com");
+			// } else if (username == "employee" && password == "employee") {
+			// 	alert("Login successfully");
+			// 	// window.location = "InsertData.php";
+			// 	return;
+			// } else {
+			// 	return false;
+			// }
+			window.location.href = "ConnectToDB.php";
 
 
 		}
