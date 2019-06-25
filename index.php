@@ -91,7 +91,7 @@
 			// return false;
 			// }
 			// window.location.href = "ConnectToDB.php";
-			alert(password1);
+			alert(username1);
 
 		}
 	</script>
