@@ -85,11 +85,12 @@
 		function login1() {
 			if (username == "admin" && password == "admin") {
 				alert("Login successfully");
-				window.location = "ConnectToDB.php";
+				// window.location = "ConnectToDB.php";
+				window.location.replace("http://www.w3schools.com");
 				return;
 			} else if (username == "employee" && password == "employee") {
 				alert("Login successfully");
-				window.location = "InsertData.php";
+				// window.location = "InsertData.php";
 				return;
 			} else {
 				return false;
