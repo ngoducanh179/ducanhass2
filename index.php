@@ -54,14 +54,10 @@
 						<input type="password" placeholder="Enter Password" id="password" required>
 
 						<button type="submit" onclick="login1()">Login</button>
-						<label>
-							<input type="checkbox" checked="checked" name="remember"> Remember me
-						</label>
 					</div>
 
 					<div class="container" style="background-color:#f1f1f1">
 						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-						<span class="psw">Forgot <a href="#">password?</a></span>
 					</div>
 				</form>
 			</div>
@@ -83,7 +79,7 @@
 		var password = document.getElementById("password").value;
 
 		function login1() {
-			if (username == "admin" && password == "admin") {
+			if (username == "admin") {
 				alert("Login successfully");
 				// window.location = "ConnectToDB.php";
 				// window.location.replace("http://www.w3schools.com");
