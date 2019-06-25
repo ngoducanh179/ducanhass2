@@ -48,10 +48,10 @@
 
 					<div class="container">
 						<label><b>Username</b></label>
-						<input type="text" id="username">
+						<input type="number" id="myNumber" value="2">
 
 						<label><b>Password</b></label>
-						<input type="password" id="password1">
+						<input type="number" id="myNumber" value="2">
 
 						<button type="submit" onclick="login1()">Login</button>
 					</div>
@@ -91,7 +91,7 @@
 			// return false;
 			// }
 			// window.location.href = "ConnectToDB.php";
-			alert(username1);
+			document.getElementById("myNumber").value = "16";
 
 		}
 	</script>
