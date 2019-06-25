@@ -82,17 +82,15 @@ window.onclick = function(event) {
 var UserName = document.getElementById('UserName1').value;
 var Password = document.getElementById('PassWord1').value;
 function login1(){
-// if (UserName && Password == "admin"){
-// 	window.location.href = 'ConnectToDB.php';
-// }
-// else if (UserName && Password == "employee"){
-// 	window.location.href = 'InsertData.php';
-// }
-// else {
-// 	return false;
-// }
-
-window.location.href = "https://www.google.com";
+if (UserName && Password == "admin"){
+	window.location.href = 'ConnectToDB.php';
+}
+else if (UserName && Password == "employee"){
+	window.location.href = 'InsertData.php';
+}
+else {
+	return false;
+}
 }
 </script>
 </body>
