@@ -3,7 +3,7 @@
 
 <head>
 	<title>Database Test</title>
-	
+
 </head>
 <link rel="stylesheet" href="style.css">
 <style type="text/css">
@@ -38,63 +38,62 @@
 			<a href="DeleteData.php" class="myButton pl-3">Delete data to the database</a> -->
 			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="ducanh.jpg" alt="Avatar" class="avatar">
-    </div>
+			<div id="id01" class="modal">
 
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" id = "username" required>
+				<form class="modal-content animate">
+					<div class="imgcontainer">
+						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+						<img src="ducanh.jpg" alt="Avatar" class="avatar">
+					</div>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id = "password" required>
-        
-      <button type="submit" onclick = "login1()">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
+					<div class="container">
+						<label for="uname"><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" id="username" required>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+						<button type="submit" onclick="login()">Login</button>
+						<label>
+							<input type="checkbox" checked="checked" name="remember"> Remember me
+						</label>
+					</div>
+
+					<div class="container" style="background-color:#f1f1f1">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
 
-//login 
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-function login1(){
-	if ( username == "admin" && password == "admin"){
-	alert ("Login successfully");
-	window.location = "ConnectToDB.php";
-}
-	else if (UserName == "employee" && Password == "employee" ){
-	alert ("Login successfully");
-	wwindow.location = "InsertData.php";
-}
-	else {
-	return false;
-}
-}
-</script>
+		//login 
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+
+		function login1() {
+			if (username == "admin" && password == "admin") {
+				alert("Login successfully");
+				window.location = "ConnectToDB.php";
+			} else if (UserName == "employee" && Password == "employee") {
+				alert("Login successfully");
+				window.location = "InsertData.php";
+			} else {
+				return false;
+			}
+		}
+	</script>
 </body>
 
 </html>
