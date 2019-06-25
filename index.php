@@ -93,7 +93,7 @@ function login1(){
 // else {
 // 	return false;
 // }
-window.location.href = 'InsertData.php'
+window.location.href = 'InsertData.php';
 }
 </script>
 </body>
