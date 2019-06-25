@@ -80,7 +80,7 @@ window.onclick = function(event) {
 
 
 </script>
-<script src='js.js'>
+<script >
 var UserName = document.getElementById('UserName1').value;
 var Password = document.getElementById('PassWord1').value;
 function login1(){
@@ -93,7 +93,7 @@ function login1(){
 // else {
 // 	return false;
 // }
-window.location.href = 'http://www.google.com';
+window.location.href = "http://www.google.com";
 }
 </script>
 </body>
