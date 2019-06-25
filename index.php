@@ -86,11 +86,11 @@ function login1(){
 	alert ("Login successfully");
 	window.location = "ConnectToDB.php";
 }
-else if (UserName == "employee" && Password == "employee" ){
+	else if (UserName == "employee" && Password == "employee" ){
 	alert ("Login successfully");
 	wwindow.location = "InsertData.php";
 }
-else {
+	else {
 	return false;
 }
 }
