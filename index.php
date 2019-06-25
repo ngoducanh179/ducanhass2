@@ -40,7 +40,7 @@
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" >
+  <form class="modal-content animate" action="/ConnectToDB.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="ducanh.jpg" alt="Avatar" class="avatar">
@@ -53,7 +53,7 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" id = "PassWord1" required>
         
-      <button type="submit" onclick ="login1()">Login</button>
+      <button type="submit" onclick = "login1()">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -78,22 +78,19 @@ window.onclick = function(event) {
     }
 }
 
-
-</script>
-<script >
+//login 
 var UserName = document.getElementById('UserName1').value;
 var Password = document.getElementById('PassWord1').value;
 function login1(){
-// if (UserName == "admin" && Password == "admin"){
-// 	window.location.href = 'ConnectToDB.php';
-// }
-// else if (UserName == "employee" && Password == "employee"){
+if (UserName && Password == "admin"){
+	window.location.href = 'ConnectToDB.php';
+}
+// else if (UserName && Password == "employee"){
 // 	window.location.href = 'InsertData.php';
 // }
-// else {
-// 	return false;
-// }
-window.location.href = "http://www.google.com";
+else {
+	return false;
+}
 }
 </script>
 </body>
