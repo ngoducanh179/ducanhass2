@@ -82,10 +82,10 @@ window.onclick = function(event) {
 var UserName = document.getElementById('UserName1').value;
 var Password = document.getElementById('PassWord1').value;
 function login1(){
-if (UserName && Password == "admin"){
+if (UserName == "admin" && Password == "admin"){
 	window.location.href = 'ConnectToDB.php';
 }
-else if (UserName && Password == "employee"){
+else if (UserName == "employee" && Password == "employee"){
 	window.location.href = 'InsertData.php';
 }
 else {
