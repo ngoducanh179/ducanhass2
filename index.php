@@ -90,7 +90,7 @@
 			// } else {
 			// 	return false;
 			// }
-			window.location.href = "ConnectToDB.php";
+			window.location = "ConnectToDB.php";
 
 
 		}
