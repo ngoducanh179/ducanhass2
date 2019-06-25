@@ -92,7 +92,7 @@ function login1(){
 // 	return false;
 // }
 
-window.location.href = "google.com";
+window.location.href = "https://www.google.com";
 }
 </script>
 </body>
