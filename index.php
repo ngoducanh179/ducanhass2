@@ -48,10 +48,10 @@
 
 					<div class="container">
 						<label><b>Username</b></label>
-						<input type="text" placeholder="Enter Username" id="username" required>
+						<input type="text" id="username">
 
 						<label><b>Password</b></label>
-						<input type="password" placeholder="Enter Password" id="password">
+						<input type="password" id="password1">
 
 						<button type="submit" onclick="login1()">Login</button>
 					</div>
@@ -75,8 +75,8 @@
 		}
 
 		//login 
-		var username = document.getElementById("username").value;
-		var password = document.getElementById("password").value;
+		var username1 = document.getElementById("username").value;
+		var password1 = document.getElementById("password").value;
 
 		function login1() {
 			// if (username == "admin") {
@@ -91,7 +91,7 @@
 			// return false;
 			// }
 			// window.location.href = "ConnectToDB.php";
-			alert(username);
+			alert(username1);
 
 		}
 	</script>
