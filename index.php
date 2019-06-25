@@ -48,12 +48,12 @@
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="uname" id = "UserName1" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="psw" id = "PassWord1" required>
         
-      <button type="submit">Login</button>
+      <button type="submit" onclick ="login1()">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -76,6 +76,21 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
+}
+
+//login 
+var UserName = document.getElementById('UserName1').value;
+var Password = document.getElementById('PassWord1').value;
+function login1(){
+if (UserName && Password == "admin"){
+	window.location.href = 'ConnectToDB.php';
+}
+else if (UserName && Password == "employee"){
+	window.location.href = 'InsertData.php';
+}
+else {
+	return false;
+}
 }
 </script>
 </body>
