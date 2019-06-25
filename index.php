@@ -48,10 +48,10 @@
 
 					<div class="container">
 						<label><b>Username</b></label>
-						<input type="number" id="myNumber" value="2">
+						<input type="text" id="username">
 
 						<label><b>Password</b></label>
-						<input type="number" id="myNumber" value="2">
+						<input type="password" id="password1">
 
 						<button type="submit" onclick="login1()">Login</button>
 					</div>
@@ -68,11 +68,11 @@
 		var modal = document.getElementById('id01');
 
 		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
+		// window.onclick = function(event) {
+		// 	if (event.target == modal) {
+		// 		modal.style.display = "none";
+		// 	}
+		// }
 
 		//login 
 		var username1 = document.getElementById("username").value;
@@ -91,7 +91,7 @@
 			// return false;
 			// }
 			// window.location.href = "ConnectToDB.php";
-			document.getElementById("myNumber").value = "16";
+			alert(password1);
 
 		}
 	</script>
