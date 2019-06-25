@@ -40,7 +40,7 @@
 
 			<div id="id01" class="modal">
 
-				<form class="modal-content animate">
+				<form class="modal-content animate " method="post" name="myForm">
 					<div class="imgcontainer">
 						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 						<img src="ducanh.jpg" alt="Avatar" class="avatar">
@@ -81,17 +81,17 @@
 		function login1() {
 			// if (username == "admin") {
 			// 	alert("Login successfully");
-			// 	// window.location = "ConnectToDB.php";
-			// 	// window.location.replace("http://www.w3schools.com");
-			// 	// } else if (username == "employee" && password == "employee") {
-			// 	// 	alert("Login successfully");
-			// 	// 	// window.location = "InsertData.php";
-			// 	// 	return;
+			// window.location = "ConnectToDB.php";
+			// window.location.replace("http://www.w3schools.com");
+			// } else if (username == "employee" && password == "employee") {
+			// 	alert("Login successfully");
+			// 	// window.location = "InsertData.php";
+			// 	return;
 			// } else {
-			// 	return false;
+			// return false;
 			// }
-			window.location.href = "ConnectToDB.php";
-
+			// window.location.href = "ConnectToDB.php";
+			alert(username);
 
 		}
 	</script>
