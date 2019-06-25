@@ -48,10 +48,10 @@
 
 					<div class="container">
 						<label><b>Username</b></label>
-						<input type="text" id="username">
+						<input type="text" id="username" value="admin">
 
 						<label><b>Password</b></label>
-						<input type="password" id="password1">
+						<input type="password" id="password1" value="admin">
 
 						<button type="submit" onclick="login1()">Login</button>
 					</div>
@@ -76,22 +76,22 @@
 
 		//login 
 		var username1 = document.getElementById("username").value;
-		var password1 = document.getElementById("password").value;
+		var password1 = document.getElementById("password1").value;
 
 		function login1() {
-			// if (username == "admin") {
-			// 	alert("Login successfully");
-			// window.location = "ConnectToDB.php";
-			// window.location.replace("http://www.w3schools.com");
-			// } else if (username == "employee" && password == "employee") {
-			// 	alert("Login successfully");
-			// 	// window.location = "InsertData.php";
-			// 	return;
-			// } else {
-			// return false;
-			// }
+			if (username == "admin") {
+				alert("Login successfully");
+				window.location = "ConnectToDB.php";
+				// window.location.replace("http://www.w3schools.com");
+			} else if (username == "employee" && password == "employee") {
+				alert("Login successfully");
+				// window.location = "InsertData.php";
+				return;
+			} else {
+				return false;
+			}
 			// window.location.href = "ConnectToDB.php";
-			alert(username1);
+
 
 		}
 	</script>
