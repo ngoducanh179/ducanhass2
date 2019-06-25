@@ -40,7 +40,7 @@
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/ConnectToDB.php">
+  <form class="modal-content animate">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="ducanh.jpg" alt="Avatar" class="avatar">
@@ -48,10 +48,10 @@
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" id = "UserName1" required>
+      <input type="text" placeholder="Enter Username" name="uname" id = "username" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id = "PassWord1" required>
+      <input type="password" placeholder="Enter Password" name="psw" id = "password" required>
         
       <button type="submit" onclick = "login1()">Login</button>
       <label>
@@ -79,14 +79,16 @@ window.onclick = function(event) {
 }
 
 //login 
-var UserName = document.getElementById('UserName1').value;
-var Password = document.getElementById('PassWord1').value;
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
 function login1(){
-if (UserName == "admin" && Password == "admin" ){
-	return true;
+	if ( username == "admin" && password == "admin"){
+	alert ("Login successfully");
+	window.location = "ConnectToDB.php";
 }
 else if (UserName == "employee" && Password == "employee" ){
-	window.location.href = "https://assofducanh.herokuapp.com/InsertData.php";
+	alert ("Login successfully");
+	wwindow.location = "InsertData.php";
 }
 else {
 	return false;
