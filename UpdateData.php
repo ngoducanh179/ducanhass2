@@ -12,7 +12,7 @@
         var CheckClassName = document.getElementById("Class1").value;
         var checkFullName = document.getElementById("Name1").value;
         var checkEmail = document.getElementById("Email1").value;
-        if (CheckClassName == "GCD0818") {
+        if (CheckClassName == "GCD0703") {
             return true;
         } else if (checkFullName == "") {
             alert("FullName should have Data");
@@ -21,7 +21,7 @@
             alert("Email should have Data");
             return false;
         } else {
-            alert("ClassName should equal GCD0818");
+            alert("ClassName should equal GCD0703");
             return false;
         }
     }

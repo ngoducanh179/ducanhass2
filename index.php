@@ -21,9 +21,9 @@
 
 <body>
 
-	<p style="color:azure;"><strong>Name:</strong> Ngo Duc anh</p>
-	<p style="color:azure;"><strong>Class:</strong> GCD0818</p>
-	<p style="color:azure;"><strong>ID:</strong> GCD17028</p>
+	<p style="color:azure;"><strong>Name:</strong> Tran Xuan Dan</p>
+	<p style="color:azure;"><strong>Class:</strong> GCD0703</p>
+	<p style="color:azure;"><strong>ID:</strong> GCD18323</p>
 	<br>
 	<br>
 	<div class="row">
@@ -43,7 +43,7 @@
 				<form class="modal-content animate " method="post" name="myForm" action="\ConnectToDB.php">
 					<div class="imgcontainer">
 						<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-						<img src="ducanh.jpg" alt="Avatar" class="avatar">
+						<img src="tranxuandan.jpg" alt="Avatar" class="avatar">
 					</div>
 
 					<div class="container">
