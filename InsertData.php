@@ -5,28 +5,35 @@
         var CheckClassName = document.getElementById("Class1").value;
         var checkFullName = document.getElementById("Name1").value;
         var checkEmail = document.getElementById("Email1").value;
-        if (CheckClassName == "GCD0703") {
-            return true;
-        } else if (checkFullName == "") {
+        if (CheckClassName == "") {
             alert("FullName should have Data");
             return false;
+        } else if (checkFullName == "") {
+            alert("Name should have Data");
+            return false;
         } else if (checkEmail == "") {
-            alert("Email should have Data");
+            alert("Price should have Data");
             return false;
         } else {
-            alert("ClassName should equal GCD0703");
-            return false;
+            return true
         }
     }
 </script>
 
 <head>
-    <title>Insert data to PostgreSQL with php - creating a simple web application</title>
+    <title>ATN Shop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="style.css">
     <style>
         li {
             list-style: none;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            background: url(tfasfs.jpg) no-repeat;
+            background-size: cover;
         }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,27 +42,27 @@
 
 <body>
     <h1>INSERT DATA TO DATABASE</h1>
-    <h2>Enter data into student table</h2>
+    <h2>Enter data into Product table</h2>
     <ul>
         <form name="InsertData" action="InsertData.php" method="POST">
-            <li>Student ID:</li>
+            <li>Product ID:</li>
             <li><input type="text" name="stuid" /></li>
-            <li>Full Name:</li>
+            <li>Name:</li>
             <li><input type="text" name="fname" id="Name1" /></li>
-            <li>Email:</li>
+            <li>Price:</li>
             <li><input type="text" name="email" id="Email1" /></li>
-            <li>Class:</li>
+            <li>Supplier:</li>
             <li><input type="text" name="classname" id="Class1" /></li>
             <li><input type="submit" name="Submit" onclick="CheckClass()" /></li>
         </form>
     </ul>
     <div class="row">
         <div class="col-12">
-            <a href="ConnectToDB.php" class="myButton pl-3">View Data</a>
+            <a href="ConnectToDB.php" class="myButton pl-3">View Data's ATN</a>
 
-            <a href="UpdateData.php" class="myButton pl-3">Update data to the database</a>
+            <a href="UpdateData.php" class="myButton pl-3">Update data to the database's ATN</a>
 
-            <a href="DeleteData.php" class="myButton pl-3">Delete data to the database</a>
+            <a href="DeleteData.php" class="myButton pl-3">Delete data to the database's ATN</a>
         </div>
     </div>
     <?php

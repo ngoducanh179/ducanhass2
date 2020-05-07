@@ -7,11 +7,18 @@
     li {
         list-style: none;
     }
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: url(tfasfs.jpg) no-repeat;
+        background-size: cover;
+    }
 </style>
 <script>
     x = document.getElementById("take");
     if (x == "") {
-        alert("fuck");
+        alert("produc id can't be null");
     }
 </script>
 
@@ -21,7 +28,7 @@
     <h1>Delete from database</h1>
     <ul>
         <form name="DeleteData" action="DeleteData.php" method="POST">
-            <li>Student ID:</li>
+            <li>Product ID:</li>
             <li><input type="text" name="stuid" id="take" /></li>
             <li><input type="submit" /></li>
         </form>
@@ -29,11 +36,11 @@
     </ul>
     <div class="row">
         <div class="col-12">
-            <a href="ConnectToDB.php" class="myButton pl-3">View Data</a>
+            <a href="ConnectToDB.php" class="myButton pl-3">View Data's ATN</a>
 
-            <a href="InsertData.php" class="myButton pl-3">Insert data to the database</a>
+            <a href="InsertData.php" class="myButton pl-3">Insert data to the database's ATN</a>
 
-            <a href="UpdateData.php" class="myButton pl-3">Update data to the database</a>
+            <a href="UpdateData.php" class="myButton pl-3">Update data to the database's ATN</a>
         </div>
     </div>
 
