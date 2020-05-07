@@ -4,6 +4,14 @@
 <body>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      background: url(tfasfs.jpg) no-repeat;
+      background-size: cover;
+    }
+  </style>
   <h1>DATABASE CONNECTION</h1>
 
   <?php
@@ -59,10 +67,10 @@
     <table class="table table-bordered table-striped">
       <thead>
         <tr>
-          <th>Student ID</th>
-          <th>Full Name</th>
-          <th>Email</th>
-          <th>classname</th>
+          <th>Product ID</th>
+          <th>Name:</th>
+          <th>Price:</th>
+          <th>Supplier:</th>
         </tr>
       </thead>
       <tbody>
