@@ -101,7 +101,7 @@
     $stmt = $pdo->prepare($sql);
     //$stmt->execute();
     if (is_null($_POST[stuid])) {
-        echo "StudentID must be not null";
+        echo "ProductID must be not null";
     } else {
         if ($stmt->execute() == TRUE) {
             echo "Record inserted successfully.";
