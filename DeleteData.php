@@ -11,7 +11,7 @@
     body {
         width: 100%;
         height: 100%;
-        background: url(tfasfs.jpg) no-repeat;
+        background: url(69626134-color-toys-border-on-the-while-background.jpg) no-repeat;
         background-size: cover;
     }
 </style>

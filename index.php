@@ -10,7 +10,7 @@
 	body {
 		width: 100%;
 		height: 100%;
-		background: url(tfasfs.jpg) no-repeat;
+		background: url(2AB7793.jpg) no-repeat;
 		background-size: cover;
 	}
 
